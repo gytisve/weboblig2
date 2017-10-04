@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Velkommen</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="content"><img class="ribbon" src="adidasgopnik.png"></div>
+  <script src="https://use.fontawesome.com/031657753e.js"></script> 
+  <script src="https://use.fontawesome.com/e7c59a641e.js"></script> 
+  <script src="https://use.fontawesome.com/f8c9e48460.js"></script>
+  <script>
+	function bigImg(x) {
+		x.style.height = "250px";
+		x.style.width = "450px";
+	}
+
+	function normalImg(x) {
+		x.style.height = "150px";
+		x.style.width = "250px";
+	}
+  </script>
+  <div id="wrapper">
+    <div id="header">
+      <div class="navigation">
+        <nav id="navigation"></nav>
+      </div>
+	  
+      <aside>
+        <iframe src="https://calendar.google.com/calendar/embed?src=j19u3d31kqt29fstcikvit8gs8%40group.calendar.google.com&ctz=Europe/Oslo" onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" width="250" height="150"></iframe>
+      </aside>
+	  
+      <article>
+	  <img id="pradzia" src="maths.jpg">
+        <h1>MathML</h1>
+        <p><mark>Matematisk</mark> markup Language (MathML) er et matematisk oppslagsspråk, en applikasjon av XML for å beskrive matematiske notater og fange både struktur og innhold. Det tar sikte på å integrere matematiske formler i World Wide Web-sider og andre dokumenter.</p>
+		<a class="button" href="maths.html">Klikk her for å lese mer!</a>
+      <hr>
+	  </article>
+	  
+	  
+      <article>
+	  <img id="pradzia" src="svg.jpg">
+        <h1>SVG</h1>
+        <p>SVG <mark>(Scalable Vector Graphics)</mark> - Et format for beskrivelse av todimensjonale vektorbilder basert på XML-oppstartspråk.</p>
+        <a class="button" href="svg.html">Klikk her for å lese mer!</a>
+      <hr>
+	  </article>
+	  
+	  
+      <article>
+	  <img id="pradzia" src="github.jpg">
+        <h1>Git og GitHub</h1>
+        <p><mark>GitHub</mark> er en utviklingsplattform inspirert av måten du jobber på. Fra åpen kilde til bedrift kan du være vert for og vurdere kode, administrere prosjekter og bygge programvare sammen med millioner av andre utviklere.</p>
+		<p><mark>Git</mark> er et gratis og åpen kildekode distribuert versjon kontrollsystem designet for å håndtere alt fra små til meget store prosjekter med fart og effektivitet.</p>
+        <a class="button" href="github.html">Klikk her for å lese mer!</a>
+		<hr>
+      </article>
+	  
+     <footer id="footer"></footer> 
+    </div>
+  </div>
+  <script src="navigation.js"></script> 
+  <script src="footer.js"></script>
+</body>
+</html>
